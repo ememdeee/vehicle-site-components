@@ -1,0 +1,84 @@
+.sectionContent {
+  /* Base styles */
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+}
+
+.sectionContent ul,
+.sectionContent ol {
+  margin: 1rem 0;
+  margin-left: 1.5rem;
+}
+
+.sectionContent ul {
+  list-style-type: disc;
+}
+
+.sectionContent ol {
+  list-style-type: decimal;
+}
+
+.sectionContent li {
+  margin-top: 0.5rem;
+}
+
+.sectionContent ul ul,
+.sectionContent ol ul {
+  list-style-type: circle;
+}
+
+.sectionContent ul ul ul,
+.sectionContent ol ul ul {
+  list-style-type: square;
+}
+
+.sectionContent table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.875rem;
+  margin: 1rem 0;
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.sectionContent th {
+  background-color: hsl(var(--muted));
+  font-weight: 600;
+  text-align: left;
+  color: hsl(var(--muted-foreground));
+  padding: 0.75rem 1rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+}
+
+.sectionContent td {
+  padding: 0.75rem 1rem;
+  vertical-align: middle;
+  border-top: 1px solid hsl(var(--border));
+}
+
+.sectionContent tr:first-child td {
+  border-top: none;
+}
+
+.sectionContent tbody tr:nth-child(even) {
+  background-color: hsl(var(--muted) / 0.5);
+}
+
+.sectionContent tbody tr:hover {
+  background-color: hsl(var(--muted));
+}
+
+.sectionContent a {
+  color: rgb(37 99 235);
+  text-decoration: none;
+}
+
+.sectionContent a:hover {
+  text-decoration: underline;
+}
