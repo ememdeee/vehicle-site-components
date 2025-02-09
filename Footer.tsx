@@ -16,7 +16,7 @@ const Footer = () => {
                 width={40}
                 height={40}
                 className="mr-3"
-              />
+              /> 
               <span className="text-xl font-semibold text-gray-900">ChassisVIN</span>
             </Link>
             <div className="flex flex-col">
